@@ -1,0 +1,32 @@
+{
+  "id": "06fe82a0-17ee-47b8-980d-dc138ee9e069",
+  "name": "ALProjectLearn",
+  "publisher": "Isaac Sindiga",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "21.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 99999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "9.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
