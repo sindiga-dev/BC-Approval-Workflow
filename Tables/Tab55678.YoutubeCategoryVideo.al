@@ -53,7 +53,7 @@ table 55678 "Youtube Category Video"
         myInt: Integer;
         NoseriesMgt: Codeunit NoSeriesManagement;
 
-    trigger OnInsert()
+    /*trigger OnInsert()
     begin
 
         if ("Video Id" = '') then begin
@@ -90,6 +90,18 @@ table 55678 "Youtube Category Video"
     trigger OnRename()
     begin
 
+    end;*/
+/*trigger OnInsert()
+var
+ youtube: Record "Youttube setup";
+NoseriesMgt: Codeunit NoSeriesManagement;
+begin
+    if "Video Id" = '' then begin 
+        youtube.Get();
+        youtube.TestField("Youtube Nos");
+        NoseriesMgt.InitSeries(youtube."Youtube Nos", xRec."Video Id", 0D, "Video Id", "No Series.");
     end;
+end;*/
+
 
 }
